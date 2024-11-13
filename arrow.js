@@ -101,3 +101,7 @@ const operator = prompt("Operator:");
 const n2 = +prompt("Second Number:");
 
 console.log(`${n1}${operator}${n2} = ${compute(n1, n2, operator)}`);
+
+//* ORNEK: Girilen sayinin faktoriyelini hesaplayan programı fonksiyonlar yardımıyla kodlayiniz.
+//? FIBONACCI terimleri: n! = n * (n-1)!
+//? Fakto(5) => 5.4.3.2
