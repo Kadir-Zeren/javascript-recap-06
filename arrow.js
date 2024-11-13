@@ -104,4 +104,23 @@ console.log(`${n1}${operator}${n2} = ${compute(n1, n2, operator)}`);
 
 //* ORNEK: Girilen sayinin faktoriyelini hesaplayan programı fonksiyonlar yardımıyla kodlayiniz.
 //? FIBONACCI terimleri: n! = n * (n-1)!
+
+//! ITERASYON YONTEMI ILE
 //? Fakto(5) => 5.4.3.2
+
+//! ITERASYON YONTEMI ILE
+const fakto = (n) => {
+  let f = 1;
+  for (let i = n; i > 1; i--) {
+    f = f * i;
+  }
+  return f;
+
+  // for (let i = 2; i <= n; i++) {}
+};
+
+const number = +prompt("n:");
+
+number < 0
+  ? alert("Number should be bigger than zero")
+  : console.log(`Fakto(${number} )= ${fakto(number)}`);
